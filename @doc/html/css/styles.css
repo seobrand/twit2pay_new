@@ -1,0 +1,143 @@
+/* -- header css--*/
+body{ background:url(../images/bg.jpg) no-repeat center top #000; }
+#header_outer { background: url(../images/top-bar-rep.png) repeat-x left top; }
+#header_inner { width: 890px; margin-right: auto; margin-left: auto; }
+#header_inner ul { margin-right: 40px; margin-left: 40px; list-style-type:none; padding: 2px 0; float:right;}
+#header_inner ul li{ position:relative;}
+#header_inner ul li.welcome_nav > a { font: 10px/30px 'MyriadProRegular', Arial, Helvetica, sans-serif; color: #ffffff; background: url(../images/welcome-icon.png) no-repeat right center; padding-right: 33px; display:inline-block; text-decoration:none; }
+#header_inner ul li ul{ background:url(../images/home-sign-bg.png); border:2px solid #fff; width:170px; position:absolute; right: -61px;
+    top: 29px; border-radius:12px;}
+#header_inner ul li ul li{ border-top:1px solid #fff; text-align:center;}
+#header_inner ul li ul li:first-child { border:none;}
+#header_inner ul li ul li a{font: 14px/24px 'MyriadProRegular', Arial, Helvetica, sans-serif; color: #ffffff;  text-decoration:none;}
+#header_logo { width: 890px; margin:0 auto;  padding:10px 0 0; }
+.page_heading { font: 34px/40px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color: #412d1a; text-align: center; padding-top: 20px; padding-bottom: 20px; }
+
+/* -- settings_payment page css -- */
+#main_pg_container { margin: 0px auto; width: 890px; background: #fff; border-radius:12px; position:relative; }
+#main_page_inner{ padding-left:36px;}
+.site_title{   height:86px; vertical-align:middle;font: 25px/30px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color: #000; display:table-cell; border-bottom:1px solid #000; width:854px;}
+.site_title span{ width:300px;}
+.menu_outer nav{position: absolute;right: 0;top: 0;}
+.menu_outer{ position:relative;}
+.menu_outer nav ul { list-style-type:none;}
+.menu_outer nav ul li { display: inline; }
+.menu_outer nav ul li a { font: 12px/16px 'MyriadProRegular',Arial, Helvetica, sans-serif; color: #fff; background: url(../images/nav-bg.gif) repeat-x left top;   float:left; text-decoration:none; text-align:center; display:block;box-shadow:1px 2px #404040;position:relative; }
+.menu_outer nav ul li a:hover, .menu_outer nav ul li a.active{ background:url(../images/nav-bg-active.gif) repeat-x left top; box-shadow:-1px 0 1px #0793bf inset, 1px 2px #404040;}
+.menu_outer nav ul li:last-child a{ border-radius: 0 12px 0 0; position:relative;} 
+.menu_outer nav ul li a span{ width: 85px;display: block; padding-top: 60px; padding-bottom: 10px; font: 12px/16px 'MyriadProRegular',Arial, Helvetica, sans-serif; color: #fff; background:url(../images/nav-icons.png) no-repeat left top;}
+
+.menu_outer nav ul li a.about_link span{ background-position:0 0;}
+.menu_outer nav ul li a.about_link:hover span, .menu_outer nav ul li a.about_link.active span{ background-position:0 -87px;}
+
+.menu_outer nav ul li a.faq_link span{ background-position:-82px 0;}
+.menu_outer nav ul li a.faq_link:hover span, .menu_outer nav ul li a.faq_link.active span{ background-position:-82px -87px;}
+
+.menu_outer nav ul li a.legal_link span{ background-position:-168px 0;}
+.menu_outer nav ul li a.legal_link:hover span, .menu_outer nav ul li a.legal_link.active span{ background-position:-168px -87px;}
+
+.menu_outer nav ul li a.contact_link span{ background-position:-252px 0;}
+.menu_outer nav ul li a.contact_link:hover span, .menu_outer nav ul li a.contact_link.active span{ background-position:-252px -87px;}
+
+.menu_outer nav ul li a.press_link span{ background-position:-333px 0;}
+.menu_outer nav ul li a.press_link:hover span, .menu_outer nav ul li a.press_link.active span{ background-position:-333px -87px;}
+
+.menu_outer nav ul li a.testimonils_link span{ background-position:-420px 0;}
+.menu_outer nav ul li a.testimonils_link:hover span, .menu_outer nav ul li a.testimonils_link.active span{ background-position:-420px -87px;}
+
+.menu_outer nav ul li a.history_link span{ background-position:-504px 0;}
+.menu_outer nav ul li a.history_link:hover span, .menu_outer nav ul li a.history_link.active span{ background-position:-504px -87px;}
+
+.menu_outer nav ul li a.address_link span{ background-position:-588px 0;}
+.menu_outer nav ul li a.address_link:hover span, .menu_outer nav ul li a.address_link.active span{ background-position:-588px -87px;}
+
+.menu_outer nav ul li a.billing_link span{ background-position:-670px 0;}
+.menu_outer nav ul li a.billing_link:hover span, .menu_outer nav ul li a.billing_link.active span{ background-position:-670px -87px;}
+ 
+
+ul.update_collm{ list-style-type:none; padding:20px 0 40px 0;}
+ul.update_collm > li{ padding:12px 0; border-bottom:1px solid #b7d9d6;}
+.update_form_main{ padding-bottom:20px;}
+.update_left_text{ float:left; width:290px; font:18px/22px 'MyriadProRegular', Arial, Helvetica, sans-serif; color:#000; padding:8px 0; position:relative;}
+.card_pay_img{ position:absolute; right:10px; top:-1px; }
+.update_right_box{ float:right; width:556px}
+.update_input{ font:18px/22px 'MyriadProRegular', Arial, Helvetica, sans-serif; color:#000; padding:8px 15px; border:1px  solid #6f6f6f; width:390px;}
+.update_input_02{ font:18px/22px 'MyriadProRegular', Arial, Helvetica, sans-serif; color:#000; padding:8px 8px; border:1px  solid #6f6f6f; width:36px; text-align:center; margin-right:10px;}
+ul.user_action{ list-style-type:none;}
+ul.user_action li{ display:inline; padding-right:15px; font:18px/22px 'MyriadProRegular', Arial, Helvetica, sans-serif; color:#000;}
+ul.user_action li span{ color:#ff0000; font-size:13px;}
+.input_action{ font:18px/22px 'MyriadProRegular', Arial, Helvetica, sans-serif; color:#000; padding:8px 14px; border:1px  solid #6f6f6f; background:#fff; margin-right:-5px; cursor:pointer;}
+.input_action:hover{ background:url(../images/yes-no-bg.gif) repeat-x left top #5bb1a8;}
+.update_sel{ font:18px/35px 'MyriadProRegular', Arial, Helvetica, sans-serif; color:#000; padding:4px 4px 4px 14px; border:1px  solid #6f6f6f; background:#fff; margin-right:-1px; cursor:pointer; height:36px;  width:120px;}
+.update_input_03{ font:18px/22px 'MyriadProRegular', Arial, Helvetica, sans-serif; color:#000; padding:8px 14px; border:1px  solid #6f6f6f; width:90px; margin-right:10px;}
+.update_button{ background:#16c0f5; border:none; border-radius:12px; padding:10px 60px; font:18px/22px 'MyriadProRegular', Arial, Helvetica, sans-serif; color:#fff; box-shadow:1px 2px #404040;  position:relative;}
+.footer_nav{ padding:30px 0 20px; text-align:center}
+.footer_nav ul{ list-style-type:none;}
+.footer_nav ul li{ display:inline; margin:0 10px;}
+.footer_nav ul li a{ font:12px/16px 'MyriadProRegular', Arial, Helvetica, sans-serif; color:#fff; text-decoration:none;}
+.footer_address{ text-align:center; padding-bottom:50px;}
+.footer_address address {  font:12px/18px 'MyriadProRegular', Arial, Helvetica, sans-serif; color:#fff;}
+
+/* -- payment history page css -- */
+.payment_history_box{ padding:30px 0 50px 0;}
+table.payment_tbl{ width:100%; border-collapse:collapse; border-bottom:4px solid #bcdcd8;} 
+table.payment_tbl tr:nth-child(2n+2) {background:#f2f2f2; }
+table.payment_tbl th{font:16px/22px 'MyriadProBold', Arial, Helvetica, sans-serif; color:#000; padding:8px 2px 8px 60px; text-align:left; border-left: 1px solid #bcdcd8; border-bottom:4px solid #bcdcd8;}
+table.payment_tbl th.pay_trans_date{ width:19%; background:url(../images/pay-trans-icon.gif) no-repeat 35px center;}
+table.payment_tbl th.pay_purchase{width:34%; background:url(../images/pay-purchase-icon.gif) no-repeat 10px center; padding-left:45px;}
+table.payment_tbl th.pay_hash{width:18%; background:url(../images/hashtag-icon.gif) no-repeat 10px center; padding-left:45px;}
+table.payment_tbl th.pay_cost{width:18%;background:url(../images/pay-cost-icon.gif) no-repeat 10px center; padding-left:40px;}
+table.payment_tbl td{ font:14px/22px 'MyriadProBold', Arial, Helvetica, sans-serif; color:#000; text-align:left; padding:10px 15px;border-left: 1px solid #bcdcd8;}
+table.payment_tbl td:first-child{ padding-left:40px;}
+
+/* -- home page css -- */
+
+#home_container{ padding:65px 0 90px; width:890px; margin: auto;}
+.home_signup_box{ width:324px; float:left; padding:20px; background:url(../images/home-sign-bg.png); border:2px solid #c0c0c0; position:relative; border-radius:8px;}
+.home_text_title{font:34px/40px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color:#fff; text-align:center; border-bottom:1px solid #e3ddd2; padding-bottom:10px;}
+.home_text_subtitle{font: 18px/22px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color:#fff; text-align:center;}
+.home_text_subtitle span{ display:block; padding:40px 0 30px;}
+.home_billing_subtitle{font: 18px/22px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color:#fff;  padding:20px 0;}
+
+.home_signup_box p{font:16px/22px 'MyriadProRegular', Arial, Helvetica, sans-serif; color:#fff; text-align:center; padding:20px 0 20px}
+.home_signup_box p a{ color:#5bb1a8; text-decoration:none;}
+.home_signup_box p a:hover{ text-decoration:underline;}
+.home_right_text{ width:485px; float:right; padding:158px 0 80px;}
+.home_right_text p{font:18px/22px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color:#fff; }
+
+/* -- legal page css  -- */
+.legal_box { padding:30px 85px 0 0;}
+.legal_box p{ font:14px/17px 'MyriadProRegular', Arial, Helvetica, sans-serif; color:#000; padding-bottom:8px;}
+.legal_title{font:14px/17px 'MyriadProBold', Arial, Helvetica, sans-serif; color:#000; padding-top:12px;  }
+
+/* -- press page css -- */
+
+.press_boxx { padding-left:5px; padding-bottom:80px;}
+.press_boxx ul{ list-style-type:none;}
+.press_boxx ul li{ border-bottom: 1px solid #b3d9d2; padding: 25px 222px 25px 18px;}
+.press_left{ width:58px; float:left;}
+.press_date{font:12px/17px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color:#000;text-align:center;}
+.press_date span{font:31px/28px 'MyriadProBold', Arial, Helvetica, sans-serif; color:#000; display:block; }
+.press_right{ float:right; width:508px;}
+.press_right p{font:14px/18px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color:#000;}
+.press_title{font:15px/18px 'MyriadProBold', Arial, Helvetica, sans-serif; color:#000; padding:8px 0;}
+.press_title span{ width:150px; float:left; padding:5px 0;}
+
+/* -- testimonials page css -- */
+
+.testimonail_boxx { padding:35px 0 10px 5px;}
+.testimonail_boxx ul{ list-style-type:none;}
+.testimonail_boxx ul li{   padding: 10px 90px 10px 5px;}
+.testi_right{ float:right; width:528px;}
+.testi_right p{font:14px/18px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color:#000;}
+.testy_left{ width:208px; float:left; text-align:center;}
+
+
+.step_input{ background:url(../images/step-input.png); padding:10px; width:298px;font:18px/22px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color:#000; border:none; margin-left:12px;}
+.step_input2{ background:url(../images/step-input.png); padding:10px; width:110px;font:18px/22px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color:#000; border:none; margin-left:12px;}
+.step_input3{ background:url(../images/step-input.png); padding:10px ; width:55px;font:18px/22px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color:#000; border:none; margin-left:12px; }
+.step_select{ background:url(../images/step-input.png); padding:9px 10px 9px 6px; width:80px;font:18px/22px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color:#000; border:none; margin-left:12px;}
+ul.step_listing{ list-style-type:none; margin-left:-10px;}
+ul.step_listing li{ padding-bottom:15px;}
+.step_next{  background:#00bbf5 url(../images/next-home.gif) no-repeat 20px center;font:18px/18px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color:#fff; padding:8px 40px; border:none; border-top:1px solid #fff; border-left:1px solid #fff; float:right; border-radius:6px 0 6px 0; cursor:pointer; position:relative; right:-20px; bottom:-20px; }
+.step_submit{  background:#00bbf5 url(../images/submit_lock.gif) no-repeat 20px center;font:18px/18px 'MyriadProSemibold', Arial, Helvetica, sans-serif; color:#fff; padding:8px 30px 8px 50px; border:none; border-top:1px solid #fff; border-left:1px solid #fff; float:right; border-radius:6px 0 6px 0; cursor:pointer; position:relative; right:-20px; bottom:-20px; }

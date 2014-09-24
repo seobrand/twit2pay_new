@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="profile">
+		<fieldset name="profile"
+			label="PLG_USER_PROFILE_SLIDER_LABEL"
+		>	
+			
+			<field
+				name="address1"
+				class="required"
+				type="text"
+				id="address1"
+				description="PLG_USER_PROFILE_FIELD_ADDRESS1_DESC"
+				filter="string"
+				label="street address"
+				size="30"
+			/>
+<field
+				name="apt"
+				type="text"
+				id="apt"
+				class="required"
+				description="Choose an option for the field Apartment"
+				filter="string"
+				label="Apartment"
+				size="30"
+			/>
+
+			<!-- 	<field
+				name="address2"
+				type="text"
+				id="address2"
+				description="PLG_USER_PROFILE_FIELD_ADDRESS2_DESC"
+				filter="string"
+				label="PLG_USER_PROFILE_FIELD_ADDRESS2_LABEL"
+				size="30"
+			/>
+ -->	
+			<field
+				name="city"
+				type="text"
+				id="city"
+				description="PLG_USER_PROFILE_FIELD_CITY_DESC"
+				filter="string"
+				label="PLG_USER_PROFILE_FIELD_CITY_LABEL"
+				size="30"
+			/>
+
+			<field
+				name="region"
+				type="list"
+				id="region"
+				description="PLG_USER_PROFILE_FIELD_REGION_DESC"
+				
+				label="State"
+				
+			>
+			<option value="Alabana">Alabama</option>
+                  <option value="Alaska">Alaska</option>
+                  <option value="American Samoa">American Samoa</option>
+                  <option value="Arizona">Arizona</option>
+                  <option value="Arkansas">Arkansas</option>
+                  <option value="California">California</option>
+                  <option value="Colorado">Colorado</option>
+                  <option value="Connecticut">Connecticut</option>
+                  <option value="Delaware">Delaware</option>
+                  <option value="District of Columbia">District of Columbia</option>
+                  <option value="Florida">Florida</option>
+                  <option value="Georgia">Georgia</option>
+                  <option value="Guam">Guam</option>
+                  <option value="Hawaii">Hawaii</option>
+                  <option value="Idaho">Idaho</option>
+                  <option value="Illinois">Illinois</option>
+                  <option value="Indiana">Indiana</option>
+                  <option value="Iowa">Iowa</option>
+                  <option value="Kansas">Kansas</option>
+                  <option value="Kentucky">Kentucky</option>
+                  <option value="Louisiana">Louisiana</option>
+                  <option value="Maine">Maine</option>
+                  <option value="Maryland">Maryland</option>
+                  <option value="Massachusetts">Massachusetts</option>
+                  <option value="Michigan">Michigan</option>
+                  <option value="Minnesota">Minnesota</option>
+                  <option value="Mississippi">Mississippi</option>
+                  <option value="Missouri">Missouri</option>
+                  <option value="Montana">Montana</option>
+                  <option value="Nebraska">Nebraska</option>
+                  <option value="Nevada">Nevada</option>
+                  <option value="New Hampshire">New Hampshire</option>
+                  <option value="New Jersey">New Jersey</option>
+                  <option value="New Mexico">New Mexico</option>
+                  <option value="New York">New York</option>
+                  <option value="North Carolina">North Carolina</option>
+                  <option value="North Dakota">North Dakota</option>
+                  <option value="Northern Marianas Islands">Northern Marianas Islands</option>
+                  <option value="Ohio">Ohio</option>
+                  <option value="Oklahoma">Oklahoma</option>
+                  <option value="Oregon">Oregon</option>
+                  <option value="Pennsylvania">Pennsylvania</option>
+                  <option value="Puerto Rico">Puerto Rico</option>
+                  <option value="Rhode Island">Rhode Island</option>
+                  <option value="South Carolina">South Carolina</option>
+                  <option value="South Dakota">South Dakota</option>
+                  <option value="Tennessee">Tennessee</option>
+                  <option value="Texas">Texas</option>
+                  <option value="Utah">Utah</option>
+                  <option value="Vermont">Vermont</option>
+                  <option value="Virginia">Virginia</option>
+                  <option value="Virgin Islands">Virgin Islands</option>
+                  <option value="Washington">Washington</option>
+                  <option value="West Virginia">West Virginia</option>
+                  <option value="Wisconsin">Wisconsin</option>
+                  <option value="Wyoming">Wyoming</option></field>
+<!-- 
+			<field
+				name="country"
+				type="text"
+				id="country"
+				description="PLG_USER_PROFILE_FIELD_COUNTRY_DESC"
+				filter="string"
+				label="PLG_USER_PROFILE_FIELD_COUNTRY_LABEL"
+				size="30"
+			/>
+ -->
+			<field
+				name="postal_code"
+				type="text"
+				id="postal_code"
+				description="PLG_USER_PROFILE_FIELD_POSTAL_CODE_DESC"
+				filter="string"
+				label="PLG_USER_PROFILE_FIELD_POSTAL_CODE_LABEL"
+				size="30"
+			/>
+			
+			
+			<field
+				name="baddress"
+				class="required"
+				type="text"
+				id="baddress"
+				description="PLG_USER_PROFILE_FIELD_ADDRESS1_DESC"
+				filter="string"
+				label="billing address"
+				size="30"
+			/>
+			
+			<field
+				name="bcity"
+				type="text"
+				id="bcity"
+				description="PLG_USER_PROFILE_FIELD_CITY_DESC"
+				filter="string"
+				label="city(billing)"
+				size="30"
+			/>
+
+			<field
+				name="bregion"
+				type="list"
+				id="bregion"
+				description="PLG_USER_PROFILE_FIELD_REGION_DESC"
+				
+				label="State(billing)"
+				
+			>
+			<option value="Alabana">Alabama</option>
+                  <option value="Alaska">Alaska</option>
+                  <option value="American Samoa">American Samoa</option>
+                  <option value="Arizona">Arizona</option>
+                  <option value="Arkansas">Arkansas</option>
+                  <option value="California">California</option>
+                  <option value="Colorado">Colorado</option>
+                  <option value="Connecticut">Connecticut</option>
+                  <option value="Delaware">Delaware</option>
+                  <option value="District of Columbia">District of Columbia</option>
+                  <option value="Florida">Florida</option>
+                  <option value="Georgia">Georgia</option>
+                  <option value="Guam">Guam</option>
+                  <option value="Hawaii">Hawaii</option>
+                  <option value="Idaho">Idaho</option>
+                  <option value="Illinois">Illinois</option>
+                  <option value="Indiana">Indiana</option>
+                  <option value="Iowa">Iowa</option>
+                  <option value="Kansas">Kansas</option>
+                  <option value="Kentucky">Kentucky</option>
+                  <option value="Louisiana">Louisiana</option>
+                  <option value="Maine">Maine</option>
+                  <option value="Maryland">Maryland</option>
+                  <option value="Massachusetts">Massachusetts</option>
+                  <option value="Michigan">Michigan</option>
+                  <option value="Minnesota">Minnesota</option>
+                  <option value="Mississippi">Mississippi</option>
+                  <option value="Missouri">Missouri</option>
+                  <option value="Montana">Montana</option>
+                  <option value="Nebraska">Nebraska</option>
+                  <option value="Nevada">Nevada</option>
+                  <option value="New Hampshire">New Hampshire</option>
+                  <option value="New Jersey">New Jersey</option>
+                  <option value="New Mexico">New Mexico</option>
+                  <option value="New York">New York</option>
+                  <option value="North Carolina">North Carolina</option>
+                  <option value="North Dakota">North Dakota</option>
+                  <option value="Northern Marianas Islands">Northern Marianas Islands</option>
+                  <option value="Ohio">Ohio</option>
+                  <option value="Oklahoma">Oklahoma</option>
+                  <option value="Oregon">Oregon</option>
+                  <option value="Pennsylvania">Pennsylvania</option>
+                  <option value="Puerto Rico">Puerto Rico</option>
+                  <option value="Rhode Island">Rhode Island</option>
+                  <option value="South Carolina">South Carolina</option>
+                  <option value="South Dakota">South Dakota</option>
+                  <option value="Tennessee">Tennessee</option>
+                  <option value="Texas">Texas</option>
+                  <option value="Utah">Utah</option>
+                  <option value="Vermont">Vermont</option>
+                  <option value="Virginia">Virginia</option>
+                  <option value="Virgin Islands">Virgin Islands</option>
+                  <option value="Washington">Washington</option>
+                  <option value="West Virginia">West Virginia</option>
+                  <option value="Wisconsin">Wisconsin</option>
+                  <option value="Wyoming">Wyoming</option></field>
+                  
+                  
+                  <field
+				name="bpostal_code"
+				type="text"
+				id="bpostal_code"
+				description="PLG_USER_PROFILE_FIELD_POSTAL_CODE_DESC"
+				filter="string"
+				label="Postal Code(billing)"
+				size="30"
+			/>
+		<!-- 	<field
+				name="website"
+				type="url"
+				id="website"
+				description="PLG_USER_PROFILE_FIELD_WEB_SITE_DESC"
+				filter="string"
+				label="Website Url"
+				size="30"
+			/>
+		
+		<field
+				name="avg_tra"
+				type="list"
+				id="avg_tra"
+				description="Choose an option for the Average Transaction Size"
+				
+				label="Average Transaction Size:"
+				
+			>
+			<option value="Less than $20">Less than $20</option>
+                <option value="$25">$25</option>
+                <option value="$50">$50</option>
+                <option value="$75">$75</option>
+                <option value="$100">$100</option>
+                <option value="$200">$200</option>
+                <option value="$300">$300</option>
+                <option value="$400">$400</option>
+                <option value="$500">$500</option>
+                <option value="Over $500+">Over $500+</option></field>
+			
+			<field
+				name="max_tra"
+				type="list"
+				id="max_tra"
+				description="Choose an option for the Maximum Transaction Size"
+				
+				label="Maximum Transaction Size:"
+				
+			>
+			<option value="$20">Less than $20</option>
+                <option value="$25">$25</option>
+                <option value="$50">$50</option>
+                <option value="$75">$75</option>
+                <option value="$100">$100</option>
+                <option value="$200">$200</option>
+                <option value="$300">$300</option>
+                <option value="$400">$400</option>
+                <option value="$500">$500</option>
+                <option value="Over $500+">Over $500+</option></field>
+			
+			<field
+				name="est_volume"
+				type="list"
+				id="est_volume"
+				class="required"
+				description="Choose an option for the Estimated Monthly Volume"
+				
+				label="Estimated Monthly Volume:"
+				
+			>
+			<option value="Less than $1,000">Less than $1,000</option>
+               	<option value="$2,000">$2,000</option>
+	            <option value="$3,000">$3,000</option> 
+                <option value="$4,000">$4,000</option> 
+                <option value="$5,000">$5,000</option>
+                <option value="$6,000">$6,000</option>
+                <option value="$7,000">$7,000</option>
+                <option value="$8,000">$8,000</option>
+                <option value="$9,000">$9,000</option>
+                <option value="$10,000">$10,000</option>
+                <option value="Over $10,000+">Over $10,000+</option> </field>
+                
+                <field
+				name="buss_type"
+				type="list"
+				id="buss_type"
+				description="Choose an option for the What type of business do you have?"
+				
+				label="What type of business do you have?"
+				
+			>
+			<option value="Accountant">Accountant</option>
+                  <option value="CPA">CPA</option>
+                  <option value="Bookkeepers">Bookkeepers</option>
+                  <option value="Car Dealers">Car Dealers</option>
+                  <option value="Beauty Professionals">Beauty Professionals</option>
+                  <option value="Builders &amp; Contractors">Builders &amp; Contractors</option>
+                  <option value="Christian Church &amp; Ministry">Christian Church &amp; Ministry</option>
+                  <option value="Computer &amp; Software Professionals">Computer &amp; Software Professionals </option>
+                  <option value="Cruise, Travel &amp; Vacation">Cruise, Travel &amp; Vacation </option>
+                  <option value="Dentist">Dentist </option>
+                  <option value="Engineer">Engineer</option>
+                  <option value="Retail store">Retail store</option>
+                  <option value="Whole sale industries">Whole sale industries</option>
+                  <option value="Petshop">Petshop</option>
+                  <option value="Executives">Executives</option>
+                  <option value="Food &amp; Restaurant">Food &amp; Restaurant </option>
+                  <option value="Finance &amp; Money Professionals">Finance &amp; Money Professionals </option>
+                  <option value="Hauling">Hauling</option>
+                  <option value="Fitness Centers &amp; Gym">Fitness Centers &amp; Gym </option>
+                  <option value="Moving">Moving </option>
+                  <option value="Trucking">Trucking</option>
+                  <option value="Health &amp; Wellness Professionals">Health &amp; Wellness Professionals</option>
+                  <option value="Hotel &amp; Motel">Hotel &amp; Motel </option>
+                  <option value="HR Professionals">HR Professionals </option>
+                  <option value="Insurance Agents &amp; Brokers">Insurance Agents &amp; Brokers</option>
+                  <option value="Interior Decorator &amp; Designer">Interior Decorator &amp; Designer </option>
+                  <option value="IT Computer Professionals">IT Computer Professionals</option>
+                  <option value="Jewelers">Jewelers</option>
+                  <option value="k-12 Teachers">k-12 Teachers </option>
+                  <option value="Marketing Executives">Marketing Executives</option>
+                  <option value="Mortgage Brokers">Mortgage Brokers</option>
+                  <option value="Bankers">Bankers</option>
+                  <option value="Pharmacy">Pharmacy</option>
+                  <option value="Physician">Physician</option>
+                  <option value="Real Estate Agents">Real Estate Agents</option> </field>
+                  
+                  <field
+				name="buss_name"
+				type="text"
+				id="buss_name"
+				description="Choose an option for the Business Legal Name"
+				filter="string"
+				label="Business Legal Name"
+				size="30"
+			/>
+			<field
+				name="tax_no"
+				type="text"
+				id="tax_no"
+				description="Choose an option for the Do you have a Tax ID (EIN)?"
+				filter="string"
+				label="Do you have a Tax ID (EIN)?"
+				size="30"
+			/>
+			
+			<field
+				name="bank_acc"
+				type="text"
+				id="bank_acc"
+				description="Choose an option for Bank Account"
+				filter="string"
+				label="Bank Account"
+				size="30"
+			/>
+			
+			<field
+				name="r_no"
+				type="text"
+				id="r_no"
+				description="Choose an option for Routing Number"
+				filter="string"
+				label="Routing Number"
+				size="30"
+			/>
+			
+			<field
+				name="ss_no"
+				type="text"
+				id="ss_no"
+				description="Choose an option for Social Security Number"
+				filter="string"
+				label="Social Security Number"
+				size="30"
+			/>
+			
+                  <field
+				name="dob"
+				type="calendar"
+				label="Your Birthday"
+				description="Choose an option for Your Birthday"
+			/> -->
+			<!-- 
+			<field
+				name="phone"
+				type="tel"
+				id="phone"
+				description="PLG_USER_PROFILE_FIELD_PHONE_DESC"
+				filter="string"
+				label="PLG_USER_PROFILE_FIELD_PHONE_LABEL"
+				size="30"
+			/>
+
+			<field
+				name="website"
+				type="url"
+				id="website"
+				description="PLG_USER_PROFILE_FIELD_WEB_SITE_DESC"
+				filter="string"
+				label="PLG_USER_PROFILE_FIELD_WEB_SITE_LABEL"
+				size="30"
+			/>
+			<field
+				name="favoritebook"
+				type="text"
+				description="PLG_USER_PROFILE_FIELD_FAVORITE_BOOK_DESC"
+				filter="string"
+				label="PLG_USER_PROFILE_FIELD_FAVORITE_BOOK_LABEL"
+				size="30"
+			/>
+			<field
+				name="aboutme"
+				type="textarea"
+				description="PLG_USER_PROFILE_FIELD_ABOUT_ME_DESC"
+				label="PLG_USER_PROFILE_FIELD_ABOUT_ME_LABEL"
+				cols="30"
+				rows="5"
+				filter="safehtml"
+			/>
+			
+			<field
+				name="tos"
+				type="tos"
+				default=""
+				label="PLG_USER_PROFILE_FIELD_TOS_LABEL"
+				description="PLG_USER_PROFILE_FIELD_TOS_DESC">
+				<option value="1">PLG_USER_PROFILE_OPTION_AGREE</option>
+				<option value="">JNO</option>
+			</field> 
+			
+			
+			<field
+				name="cardtype"
+				type="list"
+				id="cardtype"
+				description="Card Type"
+				label="Card Type"
+			>
+				<option value="Visa">Visa</option>
+				<option value="Mastro">Mastro</option>
+			</field>
+			
+			
+			<field
+				name="ccnumber"
+				class="required"
+				type="text"
+				id="ccnumber"
+				description="ccnumber"
+				filter="string"
+				label="Card Number"
+				size="16"
+			/>
+			
+			<field
+				name="name_on_card"
+				class="required"
+				type="text"
+				id="name_on_card"
+				description="name on card"
+				filter="string"
+				label="Name On Card"
+				size="40"
+			/>
+			
+			<field
+				name="cvv"
+				class="required"
+				type="text"
+				id="cvv"
+				description="cvv number"
+				filter="string"
+				label="cvv Number"
+				size="3"
+			/>
+			
+			
+			<field
+				name="expmonth"
+				type="list"
+				id="expmonth"
+				description="Expiry month"
+				label="Expiry month"
+			>
+				<option value="01">01</option>
+				<option value="02">02</option>
+			</field>
+			
+			<field
+				name="expyear"
+				type="list"
+				id="expyear"
+				description="Expiry Year"
+				label="Expiry Year"
+			>
+				<option value="2013">2013</option>
+				<option value="2014">2014</option>
+			</field>
+	
+			
+			-->
+		</fieldset>
+	</fields>
+</form>

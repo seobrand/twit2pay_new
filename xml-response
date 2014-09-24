@@ -1,0 +1,55 @@
+<ResponseResultsList xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+
+<Result>
+<ResultKey>SUCCESS</ResultKey>
+<ResultType>UPDATE</ResultType>
+<ResultCode>200</ResultCode>
+<ResultData>1400 Customer Update Succeeded.</ResultData>
+</Result>
+
+<Result>
+<ResultKey>FAIL</ResultKey>
+<ResultType>ERROR</ResultType>
+<ResultCode>400</ResultCode><ResultData>2400 Check all credit card values.</ResultData>
+</Result>
+
+<Result>
+<ResultKey>FAIL</ResultKey>
+<ResultType>ERROR</ResultType>
+<ResultCode>400</ResultCode>
+<ResultData>3000 Please check all payment data prior to submission changes rejected.</ResultData>
+</Result>
+
+</ResponseResultsList>
+
+<?xml version="1.0" encoding="utf-8"?>
+<CustomerChangeRequest>
+<Security>
+<UserName>teeshirt</UserName>
+<Password>teeshirt1</Password>
+</Security>
+<CreditCardData>
+<CardType>VISA</CardType>
+<CreditCardNumber>4111111111111111</CreditCardNumber>
+<NameOnCard>test</NameOnCard>
+<CVV>123</CVV>
+<ExpMonth>01</ExpMonth>
+<ExpYear>2014</ExpYear>
+</CreditCardData>
+</CustomerChangeRequest>
+
+
+
+
+
+
+
+
+<run_transaction_response xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+<run_transaction_results><run_transaction_result>
+<customerid>8263806</customerid>
+<response>1</response>
+<response_text>Auto Approval for zero amount</response_text>
+<response_code>100</response_code>
+<transactionid>1292303</transactionid>
+<auth_code>123</auth_code><avs_response/><cvv_response/></run_transaction_result></run_transaction_results></run_transaction_response>

@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+body { background:#fff;}
+
+@font-face {
+    font-family: 'ropa_sansregular';
+    src: url('webfont/ropasans-regular-webfont.eot');
+    src: url('webfont/ropasans-regular-webfont.svg#ropa_sansregular') format('svg'),
+         url('webfont/ropasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfont/ropasans-regular-webfont.woff') format('woff'),
+         url('webfont/ropasans-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* Global Classes */
+.wrapper { width:918px; height:auto; overflow:hidden; margin:0 auto;}
+.marginright0{ margin:0}
+.fontsize14 {font:normal 14px 'ropa_sansregular'; color:#474747;}
+.fontsize14 a {font:normal 14px 'ropa_sansregular'; color:#474747; text-decoration:none;}
+.title01{font:bold 14px 'ropa_sansregular'; color:#474747;}
+/* --------- Header --------------*/
+header{ width:100%; height:auto; overflow:hidden; background:url(../images/header-border.gif) repeat-x left bottom; min-width:1000px; background-color: #f6f6f6;}
+/*header{ width:100%; height:auto; overflow:hidden; background:url(../images/header-border.gif) repeat-x left bottom; background-color: #5bb1a8; min-width:1000px;}*/
+.logo{ float:left; width:310px; height:auto; overflow:hidden; padding:2px 0 10px}
+/*nav { float:right; width:auto; height:auto; overflow:hidden; padding:37px 0 26px 0}*/
+nav {position: relative; z-index: 999999999;}
+nav ul { float:right; margin:35px 0 0 0; padding:0px;}
+nav ul li { float:left; padding:5px 10px;}
+nav ul li a { display:block; font:normal 18px 'ropa_sansregular'; color:#999; text-transform:uppercase; text-decoration:none;}
+nav ul li a.active, nav ul li a:hover { background:url(../images/nav-hover-border.gif) repeat-x bottom left; color:#000;}
+nav ul li:last-child { padding-right:0;}
+.lock_icon{ width:10px; height:10px; background:url(../images/lock-icon.gif) no-repeat; display:block; float:left;margin:4px 3px 0 0}
+nav ul li:last-child a.active .lock_icon, nav ul li:last-child a:hover .lock_icon{ background:url(../images/lock-icon-hover.gif) no-repeat}
+/* --------- slideshow --------------*/
+.slideshow_container{ width:100%; height:auto; overflow:hidden; min-width:1300px;}
+.slideshow{ width:1280px; height:auto; overflow:hidden; margin:0 auto;}
+.slideshow ul#nav {display: block;list-style: none;position:absolute;top:345px;z-index: 15; width:800px;}
+.slideshow ul#nav li#prev {float: left; margin:0 0 0 180px;}
+.slideshow ul#nav li#next {float: right; margin:0 -325px 0 0;}
+.slideshow ul#nav li a {display: block; width: 18px; height: 34px; text-indent: -9999px;}
+.slideshow ul#nav li#prev a {background:url(../images/prev.gif) no-repeat left top}
+.slideshow ul#nav li#next a { background:url(../images/next.gif) no-repeat left top}
+.slideshow ul#slides {list-style: none;width:1280;height:553px;}
+.slideshow ul#slides li {width:1280px;height:553px;}
+a {outline: none; }
+/* --------- middle --------------*/
+.middle{ width:100%; height:auto; overflow:hidden; min-width:1000px;}
+/*-------- process  -------*/
+.process_container{ width:918px; height:auto; overflow:hidden; margin:30px 0}
+.process_container ul{ margin:0px; padding:0px;}
+.process_container ul li { float:left; padding:0 33px 0 0}
+.process_container ul li:last-child { background:none; padding:0}
+.startup_process_title{ width:250px;font:normal 28px 'ropa_sansregular'; color:#474747; background: url(../images/start-up-icon.gif) no-repeat left 5px; padding:0 0 0 34px;}
+.process_title_content{ width:250px; height:auto; overflow:hidden; padding:0 0 0 34px;font:normal 14px 'ropa_sansregular'; color:#474747;}
+.integrate_process_title{ width:250px;font:normal 28px 'ropa_sansregular'; color:#474747; background: url(../images/integrate-icon.gif) no-repeat left 5px; padding:0 0 0 34px;}
+.sell_process_title{ width:250px;font:normal 28px 'ropa_sansregular'; color:#474747; background: url(../images/sell-icon.gif) no-repeat left 5px; padding:0 0 0 34px;}
+/* --------- footer --------------*/
+footer { width:100%; height:auto; overflow:hidden; background:#000; padding:14px 0 0 0; display:inline-table; min-width:1000px;}
+.footer { width:100%; height:auto; overflow:hidden; background:#000; padding:14px 0 0 0; display:inline-table; min-width:1280px;}
+.footer_box_outer{ width:560px; height:auto; overflow:hidden; float: right;}
+.footer_box_outer ul { margin:0px; padding:0px;}
+.footer_box_outer ul li:first-child{ margin:0} 
+.footer_box_outer ul li { float:left; margin:0 0 0 76px;}
+.footer_box{ width:135px; height:auto; overflow:hidden;}
+.footer_box_title{ width:135px; height:auto; overflow:hidden; background:url(../images/footer-box-title-border.gif) repeat-x left bottom;font:normal 16px 'ropa_sansregular'; color:#fff; text-transform:uppercase; text-shadow:0 1px 0 #444; padding:0 0 5px 0}
+.box_title_type{ width:135px; height:auto; overflow:hidden;}
+.box_title_type ul { margin:0px; padding:0px;}
+.box_title_type ul li{ float:none; margin:0}
+.box_title_type ul li a {font:normal 16px 'ropa_sansregular'; color:#fff; text-decoration:none;text-shadow:0 1px 0 #444;  padding:6px 0; display:block}
+.social_type{ width:135px; height:auto; overflow:hidden;}
+.social_type ul { margin:0px; padding:0px;}
+.social_type ul li{ float:none; margin:0}
+.social_type ul li.facebook{ background:url(../images/facebook_icon.png) no-repeat left center; padding:2px 0 0 24px}
+.social_type ul li.twitter{ background:url(../images/twitter_icon.png) no-repeat left center; padding:2px 0 0 24px}
+.social_type ul li.linkedin{ background:url(../images/linkedin_icon.png) no-repeat left center; padding:2px 0 0 24px}
+.social_type ul li a {font:normal 16px 'ropa_sansregular'; color:#fff; text-decoration:none;text-shadow:0 1px 0 #444;  padding:6px 0; display:block;}
+.copyright { width:100%; height:auto; overflow:hidden;font:normal 12px 'ropa_sansregular'; color:#fff; padding: 0 0 35px 0}
+/* --------- Sign Up Form --------------*/
+.sign_up_container{ width:241px; height:auto;position:absolute; top:132px; z-index:9999; margin:0 0 0 45px;}
+.sign_up_form_title { width:241px; height:auto; text-align:center;font:normal 30px 'ropa_sansregular'; color:#fff; text-transform:uppercase; background:url(../images/form-transparent-bg2.png); padding-top: 6px;}
+.sign_form{ width:227px; height:auto; overflow:hidden; padding:9px 7px; background:url(../images/form-transparent-bg3.png);}
+.sign_form ul { margin:0px; padding:0px}
+.sign_form ul li { float:none; margin:0 0 8px 0}
+.sign_form ul li:last-child { margin:0}
+.text_field_box { width:217px; height:auto; overflow:hidden; background:url(../images/text-box.png) no-repeat; font:normal 14px Arial, Helvetica, sans-serif; color:#666; padding:12px 5px; border:0}
+.sign_up{ width:auto; height:auto; overflow:hidden; text-align:center}
+.signup_btn{ width:170px; height:auto; overflow:hidden; padding:6px 15px; background:#5bb1a8; border:none; border-radius:20px; cursor:pointer;font:normal 14px 'ropa_sansregular'; color:#fff; text-transform:uppercase; behavior:url(pie.htc); position:relative;}
+.or_txt{width:auto; height:auto; overflow:hidden; text-align:center;font:normal 16px 'ropa_sansregular'; color:#fff; text-transform:capitalize}
+.login_facebook{width:auto; height:auto; overflow:hidden; text-align:center; margin-bottom: 10px;}
+.sign_up_form_arrow{ width:241px; height:56px; background:url(../images/form-arrow.png) no-repeat left top;}
+.starup_price{ width:200px; height:auto; overflow:hidden; text-align:center;font:normal 16px 'ropa_sansregular'; color:#fff; padding:6px 15px}
+/* --------- Step 2--------------*/
+.step_container { width:830px; height:auto; overflow:hidden; position:absolute; z-index:99999; top:0px; margin:0 0 0 45px}
+.step_title{ width:830px; height:auto; overflow:hidden; text-align:center;font:normal 38px 'ropa_sansregular'; color:#fff; text-transform:uppercase; background:url(../images/form-transparent-bg2.png); padding-top: 6px;}
+.step_inner{ width:730px; height:auto; overflow:hidden; background:url(../images/form-transparent-bg3.png); padding:24px 0 24px 100px;}
+.step_inner ul { margin:0; padding:0px;}
+.step_inner ul li { float:left; margin:0 0 16px 0}
+.step_inner ul li:last-child { margin:0}
+.address_txt_box{ width:446px; height:auto; margin:0 24px 0 0; float:left;}
+.address_txt_box p{font:normal 14px/20px Arial, Helvetica, sans-serif; color:#fff; margin:0 0 2px 0}
+.text_box{ width:426px; height:auto; padding:10px; background:url(../images/step-text-box.gif) repeat-x; border:none; border-radius:2px;font:normal 14px Arial, Helvetica, sans-serif; color:#666;behavior:url(pie.htc); position:relative;}
+.apt_no{ width:126px; height:auto; overflow:hidden; float:left;}
+.apt_no p{font:normal 14px/20px Arial, Helvetica, sans-serif; color:#fff; margin:0 0 2px 0}
+.apt_text_box{ width:106px; height:auto; padding:10px; background:url(../images/step-text-box.gif) repeat-x; border:none; border-radius:2px;font:normal 14px Arial, Helvetica, sans-serif; color:#666;behavior:url(pie.htc); position:relative;}
+.city{ width:286px; height:auto; overflow:hidden; margin:0 24px 0 0; float:left;}
+.city_text_box{ width:266px; height:auto; padding:10px; background:url(../images/step-text-box.gif) repeat-x; border:none; border-radius:2px;font:normal 14px Arial, Helvetica, sans-serif; color:#666;behavior:url(pie.htc); position:relative;}
+.state{ width:136px; height:auto; overflow:hidden;margin:0 24px 0 0; float:left;}
+.state p{font:normal 14px/20px Arial, Helvetica, sans-serif; color:#fff; margin:0 0 2px 0}
+.state_combo{ width:136px; height:auto; padding:9px 10px; background:url(../images/step-text-box.gif) repeat-x; border:none; border-radius:2px;font:normal 14px Arial, Helvetica, sans-serif; color:#666;behavior:url(pie.htc); position:relative;}
+.state_combo option{ font:normal 14px Arial, Helvetica, sans-serif; color:#666}
+.zipcode{ width:126px; height:auto; overflow:hidden; float:left;}
+.zipcode p{font:normal 14px/20px Arial, Helvetica, sans-serif; color:#fff; margin:0 0 2px 0}
+.zipcode_txtbox{ width:106px; height:auto; padding:10px; background:url(../images/step-text-box.gif) repeat-x; border:none; border-radius:2px;font:normal 14px Arial, Helvetica, sans-serif; color:#666;behavior:url(pie.htc); position:relative;}
+.next_outer{ width:auto; height:auto; text-align:right; margin:18px 0 0 0; float:right;}
+/* --------- Step 3--------------*/
+.business_step{ width:730px; height:auto; overflow:hidden; background:url(../images/form-transparent-bg3.png); padding:24px 0 24px 100px;}
+.business_step ul { margin:0px; padding:0px;}
+.business_step ul li { float:none; margin:0 0 18px 0; overflow:hidden;}
+.business_step ul li:last-child { margin:0}
+.business_type{ width:286px; height:auto; overflow:hidden;}
+.business_type_combo{ width:286px; height:auto; overflow:hidden;padding:9px 10px; background:url(../images/step-text-box.gif) repeat-x; border:none; border-radius:2px;font:normal 14px Arial, Helvetica, sans-serif; color:#666;behavior:url(pie.htc); position:relative;}
+.business_type_combo option{font:normal 14px Arial, Helvetica, sans-serif; color:#666} 
+.business_name { width:286px; height:auto; overflow:hidden; float:left; margin:0 24px 0 0}
+.business_name p{font:normal 14px/20px Arial, Helvetica, sans-serif; color:#fff; margin:0 0 2px 0}
+.business_type p{font:normal 14px/20px Arial, Helvetica, sans-serif; color:#fff; margin:0 0 2px 0}
+.business_type_txtbox{ width:266px; height:auto; overflow:hidden;padding:9px 10px; background:url(../images/step-text-box.gif) repeat-x; border:none; border-radius:2px;font:normal 14px Arial, Helvetica, sans-serif; color:#666;behavior:url(pie.htc); position:relative;}
+.tax_id{ width:350px; height:auto; overflow:hidden; float:left;}
+.tax_id p {font:normal 14px/20px Arial, Helvetica, sans-serif; color:#fff; margin:0 0 2px 0}
+.tax_radio_btn{ width:80px; height:auto; overflow:hidden;font:normal 14px/20px Arial, Helvetica, sans-serif; color:#fff; float:left; margin:10px 0 0 0}
+.radio_btn{ float:left; margin:2px 5px 0 0}
+.taxid_box{ float:left; width:126px; height:auto; overflow:hidden;}
+.taxid_txtbox{width:106px; height:auto; padding:10px; background:url(../images/step-text-box.gif) repeat-x; border:none; border-radius:2px;font:normal 14px Arial, Helvetica, sans-serif; color:#666;behavior:url(pie.htc); position:relative;}
+.birth_day{ width:350px; height:auto; overflow:hidden; float:left;}
+.birth_day p{font:normal 14px/20px Arial, Helvetica, sans-serif; color:#fff; margin:0 0 2px 0}
+.birth_combo{width:82px; height:auto; overflow:hidden;padding:9px 5px; margin:0 18px 0 0; background:url(../images/step-text-box.gif) repeat-x; border:none; border-radius:2px;font:normal 14px Arial, Helvetica, sans-serif; color:#666;behavior:url(pie.htc); position:relative;}
+.birth_combo option{ font:normal 14px Arial, Helvetica, sans-serif; color:#666}
+.next_btn{padding:6px 15px; background:#5bb1a8; border:none; border-radius:20px; cursor:pointer;font:normal 16px 'ropa_sansregular'; color:#fff; text-transform:uppercase; behavior:url(pie.htc); position:relative;}
+.Global_button{padding:6px 15px; background:#5bb1a8; border:none; border-radius:20px; cursor:pointer;font:normal 16px 'ropa_sansregular'; color:#fff; text-transform:uppercase; behavior:url(pie.htc); position:relative;}
+.sign_form ul li .control-group label {font:normal 16px 'ropa_sansregular'; color:#fff; float:left: margin:0 10px 0 0;}
+.lr_icons_box div {margin:0 auto 6px !important; float:none !important;}
+.interfacecontainerdiv {  margin: 0 0 0 48px;}
+.lr_powered_text { display:none !important;}
+
+/* --------- Step 4--------------*/
+.info_container{ width:auto; height:auto; overflow:hidden;}
+.address_info{ width:275px; height:auto; overflow:hidden; float:left;}
+.address_info p { font:normal 14px/20px Arial, Helvetica, sans-serif; color:#fff;}
+.address_info p strong { font:bold 14px/20px Arial, Helvetica, sans-serif; color:#fff;}
+.business_info{ width:440px; height:auto; overflow:hidden; margin:0; float:left;}
+.business_info p { font:bold 16px/20px Arial, Helvetica, sans-serif; color:#fff;  margin:0 0 10px 0}
+.left_side_box{ width:180px; height:auto; overflow:hidden; float:left}
+.left_side_box p {font:normal 14px/20px Arial, Helvetica, sans-serif; color:#fff; margin:0;}
+.right_side_box{ width:180px; height:auto; overflow:hidden; float:left;}
+.right_side_box p {font:normal 14px/20px Arial, Helvetica, sans-serif; color:#fff; margin:0}
+.continue_checkbox{ width:auto; height:auto; overflow:hidden; margin:10px 0 0}
+.continue_checkbox p {font:normal 14px/20px Arial, Helvetica, sans-serif; color:#fff; margin:0;}
+.check_box { float:left; margin: 5px 10px 0 0}
+.continue_checkbox p a{font:normal 14px/20px Arial, Helvetica, sans-serif; color:#4abbaf;}
+.left_side_btn {width:auto; height:auto; text-align:right; margin:18px 0 0 0; float:left;}
+.previous_btn{ padding:6px 15px; background:#5bb1a8; border:none; border-radius:20px; cursor:pointer;font:normal 16px 'ropa_sansregular'; color:#fff; text-transform:uppercase; behavior:url(pie.htc); position:relative;}
+.right_side_btn{ width:auto; height:auto; text-align:right; margin:18px 0 0 0; float:right;}
+.submit_application_btn{padding:6px 15px; background:#5bb1a8; border:none; border-radius:20px; cursor:pointer;font:normal 16px 'ropa_sansregular'; color:#fff; text-transform:uppercase; behavior:url(pie.htc); position:relative;}
+/* --------- Thanks--------------*/
+.thanks { width:730px; height:auto; overflow:hidden;}
+.thanks p {font:normal 14px/20px Arial, Helvetica, sans-serif; color:#fff; margin:0 0 30px 0;}
+/* --------- Support--------------*/
+.support_title { width:100%; height:auto; overflow:hidden; padding:12px 0; text-align:center; background:url(../images/support-title_bg.gif); min-width:1000px;}
+.support_title p {font:normal 30px 'ropa_sansregular'; color:#fff; }
+.quick_response_title{ width:918px; height:auto; overflow:hidden; text-align:center; padding:20px 0;font:normal 30px 'ropa_sansregular'; color:#333;}
+.browse_topic_container{ width:918px; height:auto; overflow:hidden;}
+.search_box_outer{ width:916px; height:auto; overflow:hidden; border:1px solid #78bfb7; background:#5bb1a8; text-align:center; padding:12px 0;}
+.search_box{ width:344px; padding:8px 10px 4px; background:#fff; border-radius:15px; border:none; margin:0 auto;behavior:url(pie.htc); position:relative; overflow:hidden;}
+.search_icon{ width:21px; height:24px; background:url(../images/search-icon.gif) no-repeat; float:left;}
+.search_txtbox{ width:292px; height:auto; overflow:hidden; border:none;font:normal 14px 'ropa_sansregular'; color:#707070; float:left; margin:0 0 0 10px;}
+.browse_table{ width:916px; height:auto; overflow:hidden; border:1px solid #d2d2d2; background:#f2f2f2; border-top:1px solid #dbdbdb;}
+.broswe_title{ width:916px; height:auto; overflow:hidden;font:normal 22px 'ropa_sansregular'; color:#ccc; text-transform:uppercase; text-align:center; padding:10px 0}
+.browse_table table{ width:916px; border-spacing:0; border-collapse:collapse; border:none}
+.browse_table table tr td.topic_content_td{ width:152px; height:auto; overflow:hidden; padding:8px 0; text-align:center;font:normal 14px 'ropa_sansregular'; color:#474747;}
+.content{ width:918px; height:auto; overflow:hidden; margin:20px 0}
+.content p {font:normal 14px/18px 'ropa_sansregular'; color:#474747; margin:0 0 30px 0}
+/* --------- conact us--------------*/
+.contact_title { width:100%; height:auto; overflow:hidden; padding:12px 0; text-align:center; background:url(../images/pricing-title-bg.gif); min-width:1000px;}
+.contact_title p {font:normal 30px 'ropa_sansregular'; color:#fff; }
+.search_online_browse_title{ width:424px; height:auto; overflow:hidden; float:left;font:normal 14px 'ropa_sansregular'; color:#fff; padding:8px 30px 8px 0; text-align:right;}
+.browse_topic_search{ width:330px; height:auto; overflow:hidden; padding:5px 10px 2px; float:left; background:#fff; border-radius:15px; border:none; margin:0 auto;behavior:url(pie.htc); position:relative;}
+.browse_seachbox{ width:272px; height:auto; overflow:hidden; border:none; padding:4px 10px;font:normal 14px 'ropa_sansregular'; color:#707070; float:left;}
+.contact_three_box{ width:918px; height:auto; overflow:hidden; margin:25px 0}
+.contact_box_title p{ width:auto; height:auto; overflow:hidden; text-align:center;font: normal 14px 'ropa_sansregular'; color:#474747; margin: 0 0 18px 0}
+.contact_three_box ul { margin:0px; padding:0px;}
+.contact_three_box ul li { float:left;}
+.contact_type_outer{ width:306px; height:auto; overflow:hidden; text-align:center;}
+.contact_type{font:normal 30px 'ropa_sansregular'; color:#474747; margin:5px 0}
+.email{font:normal 14px 'ropa_sansregular'; color:#474747; text-decoration:none; }
+.message_send_container{ width:100%; height:auto; overflow:hidden; background:#f2f2f2; padding:26px 0}
+.message_send_inner{ width:918px; height:auto; overflow:hidden; margin:0 auto;}
+.send_message_title{ width:918px; height:auto; overflow:hidden;font:normal 30px 'ropa_sansregular'; color:#474747; text-align:center; margin:0 0 20px 0}
+.message_form_inner{ width:auto; height:auto; overflow:hidden; margin:0 0 0 145px;}
+.name_email_box{ width:228px; height:auto; overflow:hidden; float:left;}
+.contact_txbox{ width:208px; height:auto; overflow:hidden; padding:15px 10px; background:url(../images/contact-txtbox.png) no-repeat; border:none; font:normal 16px Arial, Helvetica, sans-serif; color:#979696; margin:0 0 8px 0}
+.message_box{ width:462px; height:auto; overflow:hidden; float:left;margin:0 0 18px 25px;}
+.message_txtbox{ width:442px;height:87px;padding:10px;background:url(../images/message-box.png) no-repeat;font:normal 16px Arial, Helvetica, sans-serif; color:#979696; border:none;}
+.send_outer{ width:auto; height:auto; overflow:hidden; clear:both; text-align:center;}
+.send_btn { padding:6px 15px; background:#5bb1a8; border:none; border-radius:20px; cursor:pointer;font:normal 16px 'ropa_sansregular'; color:#fff; text-transform:uppercase; behavior:url(pie.htc); position:relative;}
+/* --------- pricing--------------*/
+.pricing_title { width:100%; height:auto; overflow:hidden; padding:12px 0; text-align:center; background:url(../images/pricing-title-bg.gif); min-width:1000px;}
+.pricing_title p {font:normal 30px 'ropa_sansregular'; color:#fff; text-transform: uppercase; }
+.pricing_content{ width:822px; height:auto; overflow:hidden; padding:36px 48px}
+.left_panel{ width:454px; height:auto; overflow:hidden; float: left; margin:0 70px 0 0;}
+.pricing_box_top{ width:382px; height:auto; overflow:hidden; padding:36px; background:#f2f2f2;font:normal 28px 'ropa_sansregular'; color:#474747; text-align:center;}
+.pricing_services{ width:454px; height:auto; overflow:hidden; margin:12px 0}
+.pricing_services ul { margin:0px; padding:0px;}
+.pricing_services ul li { float:left; background:url(../images/service-border.gif) repeat-x bottom left; padding:0 0 0 18px; margin:0 0 0 50px; width:176px;}
+.pricing_services ul li:nth-child(odd) { margin:0; float:left} 
+.pricing_services ul li:nth-child(even) { margin:0; float:right} 
+.pricing_services ul li:last-child { background:none}
+.service_name{ width:162px; height:auto; overflow:hidden; background:url(../images/right-sign.gif) no-repeat center left;padding: 10px 0 10px 32px;font:normal 14px 'ropa_sansregular'; color:#474747;}
+.signuptoday_btn{ width:186px; height:auto; overflow:hidden; text-align:center; margin:20px 0 0 0}
+.right_panel{ width:280px; height:auto; overflow:hidden; float:left; margin:-5px 0 0 0}
+.right_panel ul { margin:0px; padding:0px;}
+.right_panel ul li { float:none; margin:0 0 20px 0}
+.simple_pricing_title{ width:250px; height:auto; overflow:hidden; padding:0 0 0 30px; background:url(../images/simple-pricing-tocken.gif) no-repeat left center;font:normal 30px 'ropa_sansregular'; color:#474747;}
+.title_content{ width:250px; height:auto; overflow:hidden;font:normal 14px/18px 'ropa_sansregular'; color:#474747; padding:0 0 0 30px;}
+.fast_deposites_title{ width:250px; height:auto; overflow:hidden; padding:0 0 0 30px; background:url(../images/fast-deposit-icon.gif) no-repeat left center;font:normal 30px 'ropa_sansregular'; color:#474747;}
+.safe_secure_title{ width:250px; height:auto; overflow:hidden; padding:0 0 0 30px; background:url(../images/safe-secure-icon.gif) no-repeat left center;font:normal 30px 'ropa_sansregular'; color:#474747;}
+.shppingcart_container{ width:100%; height:auto; overflow:hidden; background:url(../images/power-up-shoppingcart-bg.gif); border-top:1px solid #c1c1c2; padding:34px 0}
+.powerup_shoppingcart_outer{ width:822px; height:auto; overflow:hidden; padding:36px 48px}
+.power_shoppincart_title{ width:410px; height:auto; overflow:hidden; text-align:center; margin:0 auto;}
+.power_shoppincart_title p{ width:410px;font:normal 30px 'ropa_sansregular'; color:#fff; text-shadow:0 1px 0 #ccc; background:url(../images/power-up-title-border.gif) repeat-x left bottom; padding:0 0 16px 0; white-space:normal;}
+.powerup_left{ width:320px; height:auto; overflow:hidden; float:left; margin:16px 0 0 0}
+.powerup_left ul{ margin:0px; padding:0px;}
+.powerup_left ul li{ float:none; margin:0 0 48px 0;}
+.powerup_box_title {width:315px; height:auto; overflow:hidden;font:normal 22px 'ropa_sansregular'; color:#fff;}
+.powerup_box_title_content{ width:315px; height:auto; overflow:hidden;font:normal 14px/18px 'ropa_sansregular'; color:#fff;}
+.powerup_right{ width:418px; height:auto; overflow:hidden; padding:12px 15px; float:right; background:url(../images/transparent-bg.png); margin:8px 0 0 0}
+.grow_bussiness_container{ width:824px; height:auto; overflow:hidden; margin:0 auto;}
+.grow_business_title{ width:400px; height:auto; overflow:hidden; text-align:center; margin:0 auto; padding:34px 0 16px}
+.grow_business_title p{ width:400px;font:normal 30px 'ropa_sansregular'; color:#333; text-shadow:0 1px 0 #a0a0a0; background:url(../images/grow-business-title-bg.gif) repeat-x left bottom; padding:0 0 10px 0; white-space:normal;}
+.quick_switch_outer{ width:330px; height:auto; overflow:hidden; float:left; margin:0 0 30px 0}
+.quick_switch_title {font:bold 22px 'ropa_sansregular'; color:#333; margin:0 0 5px 0}
+.quick_switch_content {font:normal 14px 'ropa_sansregular'; color:#333;}
+.security_fraud_outer{ width:332px; height:auto; overflow:hidden; float:right;}
+.security_fraud_title {font:bold 22px 'ropa_sansregular'; color:#333; margin:0 0 5px 0}
+.security_fraud_content {font:normal 14px 'ropa_sansregular'; color:#333;}
+.accept_pay{ width:480px; height:auto; overflow:hidden; margin:0 auto}
+.accept_title{ width:auto; height:auto; overflow:hidden; float:left;font:bold 22px 'ropa_sansregular'; color:#ccc; margin:10px 0 0 0}
+.pay_type{ float: left; width:auto; height:auto; overflow:hidden; margin:0 0 30px 0}
+.pay_type ul{ margin:0 0 0 10px; padding:0;}
+.pay_type ul li{ float:left; margin:0 30px 0 0}
+.pay_type ul li:last-child{ margin:0}
+.pay_type ul li a { text-decoration:none;}
+/* --------- login--------------*/
+.login_container { width:100%; height:auto; overflow:hidden; padding:18px 0 6px; background:url(../images/login-container-bg.gif)}
+.login_inner{ width:592px; height:auto; overflow:hidden; margin:0 auto;}
+.login_inner ul { margin:0px; padding:0px;}
+.login_inner ul li { float:left; margin:0 0 6px 0}
+.login_inner ul li:last-child { margin:0}
+.login_txtbox{ width:207px; height:auto; overflow:hidden; background:url(../images/text-box.png) no-repeat; padding:12px 10px; border: none; font:normal 14px Arial, Helvetica, sans-serif; color:#ccc; margin:0 8px 0 0; }
+.login_btn{margin:5px 0 0 0; padding:6px 15px; background:#5bb1a8; border:none; border-radius:20px; cursor:pointer;font:normal 16px 'ropa_sansregular'; color:#fff; text-transform:uppercase; behavior:url(pie.htc); position:relative;}
+.forgot_password{ width:460px; height:auto; overflow:hidden; text-align:center; float:left; margin:0 10px 0 0}
+.forgot_password p{ font:normal 12px Arial, Helvetica, sans-serif; color:#ccc;}
+.forgot_password p a{ font:normal 12px Arial, Helvetica, sans-serif; color:#ccc; text-decoration:none;}
+.remember_me{ float:right; width:115px; height:auto; overflow:hidden; text-align:right}
+.remember_me{font:normal 12px Arial, Helvetica, sans-serif; color:#ccc;}
+.remember_checkbox{margin:0 5px 0 0}
+.login_close_btn{ position:absolute;background:url(../images/close-btn.gif) no-repeat;border:none; width:22px; height:20px; text-align:right; margin:-18px 0 0 194px; cursor:pointer}
+/* --------- Sign In--------------*/
+.signin_inner{ width:790px; height:auto; overflow:hidden; margin:0 auto;}
+.signin_inner ul { margin:0px; padding:0px;}
+.signin_inner ul li { float:left; margin:0 0 10px 0}
+.login_txtbox{ width:207px; height:auto; overflow:hidden; background:url(../images/text-box.png) no-repeat; padding:12px 10px; border: none; font:normal 14px Arial, Helvetica, sans-serif; color:#ccc; margin:0 8px 0 0; float:left; }
+.login_btn{margin:5px 0 0 0; padding:6px 15px; background:#5bb1a8; border:none; border-radius:20px; cursor:pointer;font:normal 16px 'ropa_sansregular'; color:#fff; text-transform:uppercase; behavior:url(pie.htc); position:relative; float:left;}
+.signin_close_btn{ position:absolute; background:url(../images/close-btn.gif) no-repeat; border:none;width:22px; height:20px; text-align:right; margin:-18px 0 0 45px; cursor:pointer}
+
+
+.social_type .image-title{
+padding: 1px 5px 0 !important;
+    position: absolute;
+    font:16px 'ropa_sansregular';
+}
+.logo > a {
+  position: relative;
+  z-index: 2147483647;
+}
+.blog-featured {display:none;}
+
+@media screen and (min-width:1300px) {
+body { overflow-x:hidden !important}
+}
+
+.ie7_html { margin:0 !important}
